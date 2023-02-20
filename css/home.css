@@ -10,6 +10,10 @@
     font-family: 'roboto', sans-serif;
 }
 
+html {
+    scrollbar-width: none;
+}
+
 .navbar{
     position: sticky;
     top: 0;
@@ -127,7 +131,7 @@
     overflow-y: visible;
     scroll-behavior: smooth;
     height: 500px;
-
+    scrollbar-width: none;
 }
 
 .product-container::-webkit-scrollbar{
