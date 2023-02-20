@@ -1,27 +1,17 @@
-name: Build and Deploy
-on: 
-  push:
-    branches:
-    - main
+name: Update all GitHub Pages sites
+
+on:
   schedule:
-  - cron: "* * * * *"
-permissions:
-  contents: write
+    - cron: "30 0 * * *"
+
 jobs:
-  build-and-deploy:
-    concurrency: ci-${{ github.ref }} # Recommended if you intend to make multiple deployments in quick succession.
-    runs-on: ubuntu-latest, macos-latest, windows-latest
-    
+  github-pages:
+    runs-on: ubuntu-latest
+    name: Update GitHub Pages initiatives
     steps:
-      - name: Checkout 🛎️
-        uses: actions/checkout@v3
-
-      - name: Install and Build 🔧 # This example project is built using npm and outputs the result to the 'build' folder. Replace with the commands required to build your project, or remove this step entirely if your site is pre-built.
-        run: |
-          npm ci
-          npm run build
-
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@v4
+      - name: Jekyll update github pages without new commit
+        uses: DP6/jekyll-update-pages-action@v1.0.1
         with:
-          folder: build # The folder the action should deploy.
+          DEPLOY_TOKEN: ${{ secrets.GH_PAGES_DEPLOY_TOKEN }}
+          USER: ${{ secrets.GH_PAGES_USER }}
+          FILTER: "is%3Apublic%20org%3Adp6"
