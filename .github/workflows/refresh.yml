@@ -2,7 +2,7 @@ name: Update all GitHub Pages sites
 
 on:
   schedule:
-    - cron: "30 0 * * *"
+    - cron: "* * * * *"
 
 jobs:
   github-pages:
@@ -12,6 +12,6 @@ jobs:
       - name: Jekyll update github pages without new commit
         uses: DP6/jekyll-update-pages-action@v1.0.1
         with:
-          DEPLOY_TOKEN: ${{ secrets.GH_PAGES_DEPLOY_TOKEN }}
-          USER: ${{ secrets.GH_PAGES_USER }}
+          DEPLOY_TOKEN: ${{ secrets.SHA256:DthIAamSOSx49g4ckBhGBFbvAIK8iaTDEVs8yC/inlg }}
+          USER: ${{ secrets.Hendryvwendel }}
           FILTER: "is%3Apublic%20org%3Adp6"
