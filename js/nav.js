@@ -14,7 +14,7 @@ const createNav = () => {
             </div>
         </div>
         <ul class="links-container">
-            <li class="link-item"><a href="index.html" class="link">Link1</a></li>
+            <li class="link-item"><a href="index.html" class="link">Home</a></li>
             <li class="link-item"><a href="#" class="link">Link2</a></li>
             <li class="link-item"><a href="#" class="link">Link8</a></li>
             <li class="link-item"><a href="#" class="link">Link4</a></li>
