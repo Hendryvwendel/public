@@ -12,6 +12,6 @@ jobs:
       - name: Jekyll update github pages without new commit
         uses: DP6/jekyll-update-pages-action@v1.0.1
         with:
-          DEPLOY_TOKEN: ${{ secrets.SHA256:DthIAamSOSx49g4ckBhGBFbvAIK8iaTDEVs8yC/inlg }}
+          DEPLOY_TOKEN: ${{ SHA256:DthIAamSOSx49g4ckBhGBFbvAIK8iaTDEVs8yC/inlg }}
           USER: ${{ secrets.Hendryvwendel }}
           FILTER: "is%3Apublic%20org%3Adp6"
