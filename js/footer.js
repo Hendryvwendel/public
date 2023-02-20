@@ -7,29 +7,29 @@ const createFooter = () => {
         <div class="footer-ul-container">
             <ul class="category">
                 <li class="category-title">Laders</li>
-                <li><a href="#" class="footer-link">t-shirts</a></li>
-                <li><a href="#" class="footer-link">sweatshirts</a></li>
-                <li><a href="#" class="footer-link">shirts</a></li>
-                <li><a href="#" class="footer-link">jeans</a></li>
-                <li><a href="#" class="footer-link">trousers</a></li>
-                <li><a href="#" class="footer-link">shoes</a></li>
-                <li><a href="#" class="footer-link">casuals</a></li>
-                <li><a href="#" class="footer-link">formals</a></li>
-                <li><a href="#" class="footer-link">sports</a></li>
-                <li><a href="#" class="footer-link">watch</a></li>
+                <li><a href="#" class="footer-link">1</a></li>
+                <li><a href="#" class="footer-link">2</a></li>
+                <li><a href="#" class="footer-link">3</a></li>
+                <li><a href="#" class="footer-link">4</a></li>
+                <li><a href="#" class="footer-link">5</a></li>
+                <li><a href="#" class="footer-link">6</a></li>
+                <li><a href="#" class="footer-link">7</a></li>
+                <li><a href="#" class="footer-link">8</a></li>
+                <li><a href="#" class="footer-link">9</a></li>
+                <li><a href="#" class="footer-link">0</a></li>
             </ul>
             <ul class="category">
                 <li class="category-title">Accessoires</li>
-                <li><a href="#" class="footer-link">t-shirts</a></li>
-                <li><a href="#" class="footer-link">sweatshirts</a></li>
-                <li><a href="#" class="footer-link">shirts</a></li>
-                <li><a href="#" class="footer-link">jeans</a></li>
-                <li><a href="#" class="footer-link">trousers</a></li>
-                <li><a href="#" class="footer-link">shoes</a></li>
-                <li><a href="#" class="footer-link">casuals</a></li>
-                <li><a href="#" class="footer-link">formals</a></li>
-                <li><a href="#" class="footer-link">sports</a></li>
-                <li><a href="#" class="footer-link">watch</a></li>
+                <li><a href="#" class="footer-link">1</a></li>
+                <li><a href="#" class="footer-link">2</a></li>
+                <li><a href="#" class="footer-link">3</a></li>
+                <li><a href="#" class="footer-link">4</a></li>
+                <li><a href="#" class="footer-link">5</a></li>
+                <li><a href="#" class="footer-link">6</a></li>
+                <li><a href="#" class="footer-link">7</a></li>
+                <li><a href="#" class="footer-link">8</a></li>
+                <li><a href="#" class="footer-link">9</a></li>
+                <li><a href="#" class="footer-link">0</a></li>
             </ul>
         </div>
     </div>
