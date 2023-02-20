@@ -6,8 +6,8 @@ const createNav = () => {
             <img src="./img/logo.png" class="brand-logo" alt="">
             <div class="nav-items">
                 <div class="search">
-                    <input type="text" class="search-box" placeholder="search brand, product">
-                    <button class="search-btn">search</button>
+                    <input type="text" class="search-box" placeholder="Zoek Merk, Product">
+                    <button class="search-btn">Zoek</button>
                 </div>
                 <a href="#"><img src="img/user.png" alt=""></a>
                 <a href="#"><img src="img/cart.png" alt=""></a>
